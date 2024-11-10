@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas 6A MI Attaqwa 03</title>
+    <style>
+        body {
+            background-color: #00008B; /* Biru tua */
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50; /* Hijau */
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+        }
+        /* Style for the schedule image */
+        #jadwalImage {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #jadwalImage img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>KELAS 6A SEKOLAH MIATTAQWA03</h1>
+    <div class="info">
+        <p>WALI KELAS: USTAZAH UUS</p>
+        <p>KETUA KELAS: HABIBIE</p>
+        <p>WAKIL KELAS: BILQIS</p>
+        <p>BENDAHARA: GENDIS, SYABIL</p>
+        <p>SEKRETARIS: AURA, AIDIL</p>
+    </div>
+
+    <!-- Tombol-tombol -->
+    <a href="siswa.html" class="button">𝐒𝐈𝐒𝐖𝐀</a>
+    <a href="piket.html" class="button">𝐏𝐈𝐊𝐄𝐓</a>
+    <a href="jadwal.html" class="button">𝐉𝐀𝐃𝐖𝐀𝐋</a>
+
+    <footer>copyright by razka</footer>
+
+    <script>
+        // Function to show the schedule image
+        function showSchedule() {
+            var jadwalImage = document.getElementById('jadwalImage');
+            jadwalImage.style.display = jadwalImage.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
